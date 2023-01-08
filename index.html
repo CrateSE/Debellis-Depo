@@ -7,7 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Debellis Depositories</title>
     <script defer type="module" src="main.js"></script>
- 
+    <script type="importmap">
+      {
+      "imports": {
+       "three": "https://cdn.skypack.dev/three@0.139.2/build/three.module",
+          "three/": "https://cdn.skypack.dev/three@0.139.2/",      
+          "dat.gui": "https://cdn.skypack.dev/dat.gui"
+      }
+     }
+    </script>
   </head>
   <body>
     <canvas id="bg"></canvas>
