@@ -42,6 +42,12 @@ h3 {
   
 }
 
+nameLuay{
+  color: rgb(26, 37, 143);
+  font-family: "Vollkorn", serif;
+  font-size: 66px;
+}
+
 button {
   line-height: 1;
   display: flex;
@@ -95,6 +101,9 @@ button:hover {
 
 .button:nth-child(5) {
   transition-delay: 1000ms;
+}
+.button:nth-child(6) {
+  transition-delay: 1350ms;
 }
 
 body{
