@@ -1,6 +1,6 @@
 //Import neccesary libraries
 
-import * as THREE from '/Users/shadi/AppData/Local/Microsoft/TypeScript/4.9/node_modules/@types/three/index';
+import * as THREE from 'three';
 // import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 
 //Importing animations for text
